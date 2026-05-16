@@ -12,7 +12,7 @@ services:
   grafana:
     image: grafana/grafana:latest
     container_name: grafana
-    restart: always
+    restart: alway
     ports:
       - "3000:3000"
     volumes:
